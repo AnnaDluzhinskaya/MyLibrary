@@ -8,14 +8,14 @@
 import SwiftUI
 
 public struct IntroductionPagesView: View {
-    var settings: ViewAssets
+    var settings: OnBoardingAssets
     var completeIntroduction: (() -> Void)
     var showNotificationPermission: (() -> Void)
     @State private var selectedIndex: Int = 0
     var pagesData = Pages(name: "onBoardingPages")
     
     public init (
-        settings: ViewAssets,
+        settings: OnBoardingAssets,
         completeIntroduction: @escaping (() -> Void),
         showNotificationPermission: @escaping (() -> Void)
     ) {
