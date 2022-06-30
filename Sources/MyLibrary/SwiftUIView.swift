@@ -8,7 +8,9 @@
 import SwiftUI
 
 public struct SwiftUIView: View {
-    public init (){}
+    public init (){
+        
+    }
     public var body: some View {
         ZStack {
             Rectangle()
